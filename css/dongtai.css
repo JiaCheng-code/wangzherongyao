@@ -1,0 +1,25 @@
+/* 导航栏部分 */
+header:hover .J-subnav {
+    height: 285px;
+}
+.main-nav li:not(.nav-search):hover  {
+    background-image: linear-gradient(to top,#e4b65355,rgba(0,0,0,0.1));
+    border-bottom: 5px solid #e4b653;
+}
+.main-nav a:not(.nav-search):hover {
+    color: #e4b653;
+    text-decoration: none;
+}
+.main-nav a:not(.nav-search):hover small{
+    color: #e4b6536e;
+    text-decoration: none;
+}
+.down-nav a:hover {
+    color: #e4b653;
+    text-decoration:underline;
+}
+.item-top-list-option .item-top-active {
+    color: #fff;
+    border-color: #f3c258;
+    background: #f3c258;
+}
